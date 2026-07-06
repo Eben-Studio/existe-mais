@@ -1,4 +1,3 @@
-import { HERO_IMAGE } from '../../data/landingContent'
 import { Reveal } from '../ui/Reveal'
 import logo from '../../assets/foto_principal.jpg'
 
