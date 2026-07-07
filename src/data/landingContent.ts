@@ -1,21 +1,22 @@
-export const HERO_IMAGE =
-  'https://lh3.googleusercontent.com/aida/AP1WRLve0L14jx3_vcn0N1DJrhloj75mbqVF8NxRfeFOhVXc4PHGKSuDD9y8A6_ZJ-n0rprhuFi5GmN7A0ETkkSmInrb_RVtaVakNxMKWo78z0-1MoSTbQmjJ59LDgrtDsh43yBt09XSnzpS7fV6U1X2YmPBTZzmL5-vBvgnHolOmsAILVWdvTA7vHgvIWzwCzmOOYFppVI6op1wzVcAdx_xUdI9OWak_oP1WkjltZFxpKjP7u63tChc_BeEMpCb'
-
-export const FACILITATOR_IMAGE =
-  'https://lh3.googleusercontent.com/aida/AP1WRLtORQJsaW68-FyQN96yb8kyQihcoHMEXNRnxKuaHKVtqcR7byc85s7mPPRk0U5RCz2hN9cejJ3cNGEzOIfi9ClvTV5kjbfRzbEPYppLJe488PoDIyCjFT3yS8wU9cl-UIU5lazinJxyVlGUi2s4-Zefxi04g7lVP93rCpQQMgXrg5A5kdew_d8XJx6opbakXwWqs8GK-51YSQoGLZqMpQaZu219YC6o3RoFuZxeH-stlBRdyJsajcSDTvo'
-
 export const NAV_LINKS = [
   { label: 'O que é', href: '#definition' },
-  { label: 'Como funciona', href: '#philosophy' },
+  { label: 'Como funciona', href: '#experience' },
   { label: 'Quem conduz', href: '#facilitator' },
+] as const
+
+export const EXISTE_MAIS_ITEMS = [
+  'Existe mais sensibilidade do que a autocrítica permite enxergar.',
+  'Mais coragem do que o medo costuma contar.',
+  'Mais criatividade do que a rotina deixa aparecer.',
+  'Mais possibilidades do que as histórias repetidas fazem parecer.',
+  'Mais caminhos do que aqueles que hoje parecem visíveis.',
 ] as const
 
 export const PILLARS = [
   {
-    icon: 'auto_stories',
-    title: 'Refletir',
-    description:
-      'Olhar para os padrões que nos mantêm operando no automático e identificar os espaços de liberdade.',
+    icon: 'visibility',
+    title: 'Reconhecer',
+    description: 'Toda transformação começa quando conseguimos enxergar aquilo que já existe.',
     hoverBorder: 'hover:border-leather',
     iconBg: 'group-hover:bg-leather group-hover:text-surface',
     iconColor: 'text-leather',
@@ -23,56 +24,76 @@ export const PILLARS = [
   {
     icon: 'experiment',
     title: 'Experimentar',
-    description:
-      'Vivenciar práticas somáticas e editoriais que expandem nossa capacidade de sentir a própria vida.',
+    description: 'Algumas compreensões acontecem melhor quando são vividas.',
     hoverBorder: 'hover:border-aquamarine',
     iconBg: 'group-hover:bg-aquamarine group-hover:text-surface',
     iconColor: 'text-aquamarine',
   },
   {
-    icon: 'local_shipping',
-    title: 'Levar',
+    icon: 'bookmark',
+    title: 'Levar com você',
     description:
-      'Ancorar as descobertas em rituais diários simples que sustentam a nova consciência descoberta.',
+      'O objetivo é que a experiência continue produzindo sentido depois que o workshop termina.',
     hoverBorder: 'hover:border-primary',
     iconBg: 'group-hover:bg-primary group-hover:text-on-primary',
     iconColor: 'text-primary',
   },
 ] as const
 
+export const SCIENCE_AREAS = [
+  'Psicologia Positiva',
+  'Positive CBT',
+  'Psicologia Narrativa',
+  'Mindfulness',
+  'Aprendizagem Experiencial',
+] as const
+
 export const OUTCOMES = [
   {
     icon: 'visibility',
-    title: 'Clareza de Potencial',
-    description:
-      'Reconhecer capacidades que muitas vezes ficam em segundo plano diante das exigências e preocupações do dia a dia.',
+    title: 'Capacidades reconhecidas',
+    description: 'Reconhecendo capacidades que havia esquecido.',
     borderColor: 'border-leather',
     iconColor: 'text-leather',
   },
   {
     icon: 'history_edu',
-    title: 'Nova Perspectiva',
-    description:
-      'Olhar para a própria história sob uma perspectiva mais ampla e perceber evidências da pessoa que já foi capaz de ser.',
+    title: 'Outra perspectiva',
+    description: 'Olhando para sua história por outra perspectiva.',
     borderColor: 'border-aquamarine',
     iconColor: 'text-aquamarine',
   },
   {
     icon: 'space_dashboard',
-    title: 'Expansão de Espaço',
-    description:
-      'Ampliar a forma como enxerga suas possibilidades de agir, se relacionar e ocupar espaço na própria vida.',
+    title: 'Novas possibilidades',
+    description: 'Percebendo possibilidades onde antes via repetição.',
     borderColor: 'border-primary',
     iconColor: 'text-primary',
   },
   {
     icon: 'auto_awesome',
-    title: 'Intenção Renovada',
-    description:
-      'Cultivar mais esperança, entusiasmo e intenção para escrever os próximos capítulos da sua história.',
+    title: 'Mais disponível em você',
+    description: 'Sentindo que existe mais disponível em você do que imaginava.',
     borderColor: 'border-secondary',
     iconColor: 'text-secondary',
   },
+] as const
+
+export const FACILITATOR_CREDENTIALS = [
+  'Psicóloga',
+  'Especialista em Psicologia Positiva, Ciência do Bem-Estar e Autorrealização',
+  'Comunicadora',
+  'Facilitadora do ExpressAr-te e criadora do Existe Mais',
+] as const
+
+export const WORKSHOP_DATE = '11/07/2026'
+export const WORKSHOP_TIME = '10h às 12h'
+
+export const BEFORE_ITEMS = [
+  { icon: 'videocam', text: 'Workshop online e ao vivo' },
+  { icon: 'photo_camera', text: 'Câmera opcional' },
+  { icon: 'edit_note', text: 'Tenha um caderno por perto' },
+  { icon: 'self_improvement', text: 'Você participa no seu ritmo.' },
 ] as const
 
 export const FAQ_ITEMS = [
@@ -104,6 +125,6 @@ export const FAQ_ITEMS = [
 
 export const FOOTER_LINKS = [
   { label: 'O que é', href: '#definition' },
-  { label: 'Como funciona', href: '#philosophy' },
+  { label: 'Como funciona', href: '#experience' },
   { label: 'Quem conduz', href: '#facilitator' },
 ] as const

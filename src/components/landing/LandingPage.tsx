@@ -1,5 +1,8 @@
 import { useScrollReveal } from '../../hooks/useScrollReveal'
+import { BeforeSection } from './BeforeSection'
 import { DefinitionSection } from './DefinitionSection'
+import { ExistMoreSection } from './ExistMoreSection'
+import { ExperienceSection } from './ExperienceSection'
 import { FacilitatorSection } from './FacilitatorSection'
 import { FAQSection } from './FAQSection'
 import { Footer } from './Footer'
@@ -9,6 +12,7 @@ import { PhilosophySection } from './PhilosophySection'
 import { PillarsSection } from './PillarsSection'
 import { PricingSection } from './PricingSection'
 import { PropositionSection } from './PropositionSection'
+import { ScienceSection } from './ScienceSection'
 import { TopNavBar } from './TopNavBar'
 
 export function LandingPage() {
@@ -19,14 +23,18 @@ export function LandingPage() {
       <TopNavBar />
       <main>
         <HeroSection />
+        <DefinitionSection />
         <PhilosophySection />
         <PropositionSection />
-        <DefinitionSection />
+        <ExistMoreSection />
+        <ExperienceSection />
         <PillarsSection />
+        <ScienceSection />
         <OutcomesSection />
         <FacilitatorSection />
-        <FAQSection />
+        <BeforeSection />
         <PricingSection />
+        <FAQSection />
       </main>
       <Footer />
     </div>

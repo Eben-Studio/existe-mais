@@ -6,7 +6,7 @@ export function PillarsSection() {
     <section className="bg-ice py-section-gap-desktop">
       <div className="mx-auto max-w-container-max px-gutter">
         <Reveal className="mb-20 text-center">
-          <h2 className="font-headline-md text-headline-md">Os três pilares da jornada</h2>
+          <h2 className="font-headline-md text-headline-md">O que você vai viver</h2>
         </Reveal>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">

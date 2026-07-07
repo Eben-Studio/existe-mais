@@ -6,16 +6,17 @@ export function OutcomesSection() {
     <section className="relative overflow-hidden border-y border-outline-variant/20 bg-surface-container-low py-section-gap-desktop">
       <div className="mx-auto max-w-container-max px-gutter">
         <Reveal className="mx-auto mb-20 max-w-4xl text-center">
-          <span className="mb-6 block font-label-caps text-label-caps uppercase tracking-[0.3em] text-leather">
-            A Transformação
-          </span>
           <h2 className="mb-8 font-display-lg text-display-lg-mobile leading-tight text-charcoal md:text-7xl">
-            Como você sairá desta experiência?
+            Como você sairá da experiência
           </h2>
-          <p className="mx-auto max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
-            Um espaço de pausa e investigação para levar você do ruído mental à clareza do
-            coração, devolvendo o protagonismo da sua própria história.
-          </p>
+          <div className="space-y-6 font-body-lg text-body-lg text-on-surface-variant">
+            <p>Cada pessoa vive o Existe Mais de um jeito.</p>
+            <p>
+              Por isso, não existe uma transformação pronta. Existe a possibilidade de sair olhando
+              para si mesma com mais clareza, mais espaço e novas possibilidades.
+            </p>
+            <p className="font-semibold text-charcoal">Você pode sair:</p>
+          </div>
         </Reveal>
 
         <Reveal className="grid grid-cols-1 gap-8 md:grid-cols-2">

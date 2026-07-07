@@ -8,32 +8,33 @@ export function PhilosophySection() {
     >
       <div className="mx-auto max-w-container-max px-gutter">
         <Reveal className="mx-auto mb-20 max-w-4xl text-center">
-          <span className="mb-6 block font-label-caps text-label-caps uppercase tracking-[0.3em] text-leather">
-            O Ponto de Partida
-          </span>
           <h2 className="mb-8 font-display-lg text-display-lg-mobile leading-tight text-charcoal md:text-7xl">
-            Talvez você conheça esta sensação...
+            Talvez você conheça essa sensação
           </h2>
-          <p className="mx-auto max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
-            Um espaço de pausa e investigação para levar você do ruído mental à clareza do
-            coração, devolvendo o protagonismo da sua própria história.
-          </p>
         </Reveal>
 
-        <Reveal className="grid grid-cols-1 items-start gap-16 md:grid-cols-2">
-          <div className="space-y-6">
-            <div className="h-px w-16 bg-leather opacity-40" />
-            <p className="font-accent-detail text-accent-detail italic leading-relaxed text-charcoal">
-              &ldquo;O convite é para o essencial. Menos ruído, mais ressonância.&rdquo;
-            </p>
-          </div>
-          <div>
-            <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
-              Desenhamos um espaço seguro onde o silêncio não é vazio, mas fértil. Onde cada
-              palavra e cada exercício editorial servem como um espelho para sua própria
-              potência.
-            </p>
-          </div>
+        <Reveal className="mx-auto max-w-3xl space-y-6">
+          <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            Você segue dando conta. Cumpre seus compromissos. Resolve problemas. Cuida das pessoas
+            que ama. Continua crescendo.
+          </p>
+          <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            Por fora, a vida acontece.
+          </p>
+          <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            Mas, por dentro, existe uma pergunta difícil de explicar:
+          </p>
+          <p className="font-accent-detail text-accent-detail italic leading-relaxed text-charcoal">
+            &ldquo;Em que momento algumas partes de mim começaram a ocupar tão pouco
+            espaço?&rdquo;
+          </p>
+          <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+            Essas partes nem sempre desaparecem. Às vezes, apenas deixam de ser percebidas. E,
+            quando isso acontece, começamos a acreditar que elas deixaram de existir.
+          </p>
+          <p className="font-headline-md text-headline-md leading-relaxed text-charcoal">
+            E se existisse mais disponível em você do que consegue enxergar hoje?
+          </p>
         </Reveal>
       </div>
     </section>

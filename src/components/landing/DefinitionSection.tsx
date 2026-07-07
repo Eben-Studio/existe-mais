@@ -1,11 +1,5 @@
 import { Reveal } from '../ui/Reveal'
 
-const NOT_ITEMS = [
-  'Não é uma palestra.',
-  'Não é um curso tradicional.',
-  'Não é uma terapia em grupo.',
-] as const
-
 export function DefinitionSection() {
   return (
     <section className="overflow-hidden bg-surface py-section-gap-desktop" id="definition">
@@ -14,49 +8,33 @@ export function DefinitionSection() {
           <span className="font-display-lg text-[200px] leading-none">EXISTE</span>
         </div>
 
-        <Reveal>
-          <span className="mb-4 block font-label-caps text-label-caps uppercase tracking-[0.2em] text-leather">
-            Manifesto
-          </span>
-          <h2 className="mb-12 font-display-lg text-display-lg-mobile md:text-display-lg">
+        <Reveal className="mx-auto max-w-3xl">
+          <h2 className="mb-16 font-display-lg text-display-lg-mobile md:text-display-lg">
             O que é o Existe Mais?
           </h2>
 
-          <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
-            <div className="space-y-6 md:col-span-2">
-              <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-                <div className="space-y-6">
-                  <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
-                    O Existe Mais é um workshop online e ao vivo que integra Psicologia Positiva e
-                    vivências cuidadosamente conduzidas para ampliar a forma como cada participante
-                    percebe a si mesma e suas possibilidades.
-                  </p>
-                  <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
-                    Mais do que transmitir conhecimento, a proposta é criar experiências que
-                    favoreçam novas perspectivas sobre a própria história, fortaleçam a conexão com
-                    capacidades já existentes e inspirem novas formas de agir diante da vida.
-                  </p>
-                </div>
+          <div className="space-y-8">
+            <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+              O Existe Mais é um workshop online e ao vivo criado por uma psicóloga especialista em
+              Psicologia Positiva para pessoas que desejam ampliar a forma como enxergam a si
+              mesmas.
+            </p>
 
-                <div className="flex flex-col justify-center border border-outline-variant/30 bg-ice p-10">
-                  <ul className="space-y-4">
-                    {NOT_ITEMS.map((item) => (
-                      <li key={item} className="flex items-center gap-4">
-                        <span className="h-1.5 w-1.5 rounded-full bg-leather" />
-                        <span className="font-body-md text-body-md text-on-surface-variant">
-                          {item}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="mt-8 border-t border-outline-variant/20 pt-8">
-                    <h3 className="font-headline-md text-headline-md italic text-charcoal">
-                      É uma experiência.
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+              Ao longo da experiência, você será conduzida por vivências que unem ciência, reflexão,
+              criatividade e diálogo em um ambiente seguro e acolhedor.
+            </p>
+
+            <p className="font-body-lg text-body-lg leading-relaxed text-on-surface-variant">
+              O objetivo não é expor sua história, mas criar experiências que permitam perceber
+              capacidades e possibilidades que muitas vezes ficaram escondidas entre as exigências da
+              rotina e a forma como aprendemos a olhar para nós mesmos.
+            </p>
+
+            <p className="border-l-4 border-leather pl-8 font-headline-md text-headline-md leading-relaxed text-charcoal">
+              Porque, às vezes, não precisamos nos tornar outra pessoa. Precisamos voltar a
+              enxergar aquilo que continua existindo em nós.
+            </p>
           </div>
         </Reveal>
       </div>
