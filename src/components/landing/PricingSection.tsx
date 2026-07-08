@@ -22,23 +22,6 @@ export function PricingSection() {
               Investimento
             </div>
 
-            <div className="mb-8 flex flex-wrap items-center justify-center gap-6 border-b border-outline-variant/20 pb-8">
-              <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-leather">calendar_month</span>
-                <div className="text-left">
-                  <p className="font-label-caps text-label-caps uppercase text-leather">Data</p>
-                  <p className="font-body-md text-body-md text-on-surface-variant">{WORKSHOP_DATE}</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-leather">schedule</span>
-                <div className="text-left">
-                  <p className="font-label-caps text-label-caps uppercase text-leather">Horário</p>
-                  <p className="font-body-md text-body-md text-on-surface-variant">{WORKSHOP_TIME}</p>
-                </div>
-              </div>
-            </div>
-
             <div className="mb-8 flex items-baseline justify-center gap-2">
               <span className="font-body-lg text-charcoal/60">R$</span>
               <span className="font-headline-md text-7xl">47</span>
