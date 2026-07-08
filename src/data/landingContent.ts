@@ -98,7 +98,7 @@ export const BEFORE_ITEMS = [
 
 export const FAQ_ITEMS = [
   {
-    question: 'Preciso gostar de dinâmicas de grupo ou ter experiência?',
+    question: 'Preciso ter experiência com dinâmicas em grupo?',
     answer:
       'Não. O Existe Mais foi criado para pessoas que desejam se desenvolver, independentemente de já terem participado de experiências em grupo. As vivências são conduzidas de forma leve, respeitosa e acessível.',
   },
