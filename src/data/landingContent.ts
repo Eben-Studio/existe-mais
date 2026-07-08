@@ -91,7 +91,7 @@ export const WORKSHOP_TIME = '10h às 12h'
 
 export const BEFORE_ITEMS = [
   { icon: 'videocam', text: 'Workshop online e ao vivo' },
-  { icon: 'photo_camera', text: 'Câmera opcional' },
+  { icon: 'photo_camera', text: 'Câmera aberta' },
   { icon: 'edit_note', text: 'Tenha um caderno por perto' },
   { icon: 'self_improvement', text: 'Você participa no seu ritmo.' },
 ] as const
