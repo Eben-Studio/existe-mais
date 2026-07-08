@@ -34,7 +34,7 @@ export function PricingSection() {
             <button
               type="button"
               onClick={() => {
-                window.location.href = 'https://checkout.nubank.com.br/lYSjCXDb8sfjdads'
+                window.location.href = 'https://wa.me/5511955589880?text=Gostaria%20de%20participar%20do%20workshop%20Existe%20Mais.'
               }}
               className="w-full bg-primary-container px-12 py-6 font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container shadow-soft transition-all duration-300 hover:scale-105"
             >
