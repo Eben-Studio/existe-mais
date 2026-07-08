@@ -1,4 +1,3 @@
-import { WORKSHOP_DATE, WORKSHOP_TIME } from '../../data/landingContent'
 import { Reveal } from '../ui/Reveal'
 
 export function PricingSection() {
