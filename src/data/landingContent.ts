@@ -86,8 +86,9 @@ export const FACILITATOR_CREDENTIALS = [
   'Facilitadora do ExpressAr-te e criadora do Existe Mais',
 ] as const
 
-export const WORKSHOP_DATE = '11/07/2026'
-export const WORKSHOP_TIME = '10h às 12h'
+export const INTEREST_LIST_URL =
+  'https://wa.me/5511955589880?text=' +
+  encodeURIComponent('Olá! Gostaria de entrar na lista de interesse do workshop Existe Mais e receber informações sobre as próximas turmas.')
 
 export const BEFORE_ITEMS = [
   { icon: 'videocam', text: 'Workshop online e ao vivo' },
