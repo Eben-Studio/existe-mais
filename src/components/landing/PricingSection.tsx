@@ -1,3 +1,4 @@
+import { INTEREST_LIST_URL } from '../../data/landingContent'
 import { Reveal } from '../ui/Reveal'
 
 export function PricingSection() {
@@ -12,38 +13,32 @@ export function PricingSection() {
             A pergunta é: quanto desse &lsquo;mais&rsquo; tem encontrado espaço na sua vida?
           </p>
           <p className="mx-auto mb-12 max-w-2xl font-body-lg text-body-lg text-on-surface-variant">
-            Espero que, ao final dessas duas horas, você volte para a sua rotina não como alguém
+            Espero que, ao final dessa experiência, você volte para a sua rotina não como alguém
             diferente, mas enxergando possibilidades que já estavam aí.
           </p>
 
-          <div className="relative inline-block border border-outline/20 bg-surface p-12 md:p-20">
-            <div className="absolute -top-6 left-1/2 -translate-x-1/2 rounded-full bg-leather px-6 py-1 font-label-caps text-label-caps uppercase text-surface">
-              Investimento
+          <div className="relative mx-auto max-w-2xl border border-outline/20 bg-surface px-6 py-12 sm:px-12 md:p-20">
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-leather px-6 py-2 font-label-caps text-label-caps uppercase text-surface">
+              Lista de interesse
             </div>
 
-            <div className="mb-8 flex items-baseline justify-center gap-2">
-              <span className="font-body-lg text-charcoal/60">R$</span>
-              <span className="font-headline-md text-7xl">47</span>
-              <span className="font-body-md text-charcoal/60">,00</span>
-            </div>
+            <h3 className="mb-6 font-headline-md text-headline-md text-charcoal">
+              Em breve, novas datas.
+            </h3>
 
-            <p className="mx-auto mb-12 max-w-sm font-body-md text-on-surface-variant">
-              Acesso ao workshop ao vivo
+            <p className="mx-auto mb-10 max-w-sm font-body-md text-body-md text-on-surface-variant">
+              Inscreva-se na lista de interesse para receber informações sobre as próximas turmas do Existe Mais.
             </p>
 
-            <button
-              type="button"
-              onClick={() => {
-                window.location.href = 'https://wa.me/5511955589880?text=Gostaria%20de%20participar%20do%20workshop%20Existe%20Mais.'
-              }}
-              className="w-full bg-primary-container px-12 py-6 font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container shadow-soft transition-all duration-300 hover:scale-105"
+            <a
+              href={INTEREST_LIST_URL}
+              className="inline-block w-full bg-primary-container px-6 py-6 font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container shadow-soft transition-all duration-300 hover:scale-105"
             >
-              Quero viver essa experiência
-            </button>
+              Quero entrar na lista de interesse
+            </a>
 
-            <p className="mt-8 flex items-center justify-center gap-2 text-label-caps uppercase tracking-widest text-leather opacity-60">
-              <span className="material-symbols-outlined text-sm">lock</span>
-              Pagamento Seguro
+            <p className="mt-6 font-body-md text-body-md text-on-surface-variant">
+              Fale conosco pelo WhatsApp para registrar seu interesse.
             </p>
           </div>
         </Reveal>

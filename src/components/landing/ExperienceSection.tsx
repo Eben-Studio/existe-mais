@@ -17,7 +17,7 @@ export function ExperienceSection() {
               O Existe Mais foi desenhado para ampliar a forma como você percebe a si mesma.
             </p>
             <p>
-              Ao longo de aproximadamente duas horas, você viverá experiências que combinam
+              Durante o workshop, você viverá experiências que combinam
               reflexão, imaginação, criatividade e diálogo.
             </p>
             <p>

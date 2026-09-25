@@ -33,7 +33,7 @@ export function ExistMoreSection() {
               className="mt-8 inline-block rounded bg-primary-container px-10 py-5 font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container transition-all duration-300 hover:-translate-y-1 hover:shadow-soft"
               href="#pricing"
             >
-              Quero reservar minha vaga
+              Quero entrar na lista de interesse
             </a>
           </div>
         </Reveal>
