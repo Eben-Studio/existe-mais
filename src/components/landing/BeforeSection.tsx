@@ -1,4 +1,4 @@
-import { BEFORE_ITEMS, WORKSHOP_DATE, WORKSHOP_TIME } from '../../data/landingContent'
+import { BEFORE_ITEMS } from '../../data/landingContent'
 import { Reveal } from '../ui/Reveal'
 
 export function BeforeSection() {
@@ -10,27 +10,25 @@ export function BeforeSection() {
             Antes de nos encontrarmos
           </h2>
 
-          <div className="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-            <div className="border border-outline-variant/30 bg-ice p-8 text-center">
-              <span className="material-symbols-outlined mb-4 block text-3xl text-leather">
-                calendar_month
-              </span>
-              <p className="mb-2 font-label-caps text-label-caps uppercase tracking-widest text-leather">
-                Data
-              </p>
-              <p className="font-headline-md text-headline-md text-charcoal">{WORKSHOP_DATE}</p>
-            </div>
-
-            <div className="border border-outline-variant/30 bg-ice p-8 text-center">
-              <span className="material-symbols-outlined mb-4 block text-3xl text-leather">
-                schedule
-              </span>
-              <p className="mb-2 font-label-caps text-label-caps uppercase tracking-widest text-leather">
-                Horário
-              </p>
-              <p className="font-headline-md text-headline-md text-charcoal">{WORKSHOP_TIME}</p>
-              <p className="font-body-md text-body-md text-on-surface-variant">Duração: 2 horas</p>
-            </div>
+          <div className="mb-6 border border-outline-variant/30 bg-ice p-8 text-center">
+            <span className="material-symbols-outlined mb-4 block text-3xl text-leather">
+              notifications_active
+            </span>
+            <p className="mb-2 font-label-caps text-label-caps uppercase tracking-widest text-leather">
+              Lista de interesse aberta
+            </p>
+            <p className="mb-4 font-headline-md text-headline-md text-charcoal">
+              Em breve, novas datas.
+            </p>
+            <p className="font-body-md text-body-md text-on-surface-variant">
+              Entre na lista de interesse para receber informações sobre as próximas turmas.
+            </p>
+            <a
+              href="#pricing"
+              className="mt-6 inline-block font-label-caps text-label-caps uppercase tracking-widest text-primary underline underline-offset-4"
+            >
+              Quero entrar na lista
+            </a>
           </div>
 
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">

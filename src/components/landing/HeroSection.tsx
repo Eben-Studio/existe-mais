@@ -14,7 +14,7 @@ export function HeroSection() {
             voltar a ocupar mais espaço na própria história.
           </p>
           <p className="mb-12 max-w-lg font-body-lg text-body-lg text-on-surface-variant">
-            Em apenas duas horas, você viverá uma experiência construída para ampliar a forma como
+            Você viverá uma experiência construída para ampliar a forma como
             percebe a si mesma e descobrir que, muitas vezes, aquilo que procura já existe. Só
             precisa voltar a ganhar espaço.
           </p>
@@ -22,7 +22,7 @@ export function HeroSection() {
             className="inline-block rounded bg-primary-container px-10 py-5 font-label-caps text-label-caps uppercase tracking-widest text-on-primary-container transition-all duration-300 hover:-translate-y-1 hover:shadow-soft"
             href="#pricing"
           >
-            Quero viver essa experiência
+            Quero entrar na lista de interesse
           </a>
         </Reveal>
 

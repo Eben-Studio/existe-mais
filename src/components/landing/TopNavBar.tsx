@@ -31,10 +31,10 @@ export function TopNavBar() {
         </div>
 
         <a
-          className="rounded-lg bg-primary-container px-8 py-3 font-label-caps text-label-caps uppercase text-on-primary-container transition-transform duration-200 hover:scale-95"
+          className="rounded-lg bg-primary-container px-4 py-3 font-label-caps text-label-caps uppercase text-on-primary-container transition-transform duration-200 hover:scale-95 sm:px-8"
           href="#pricing"
         >
-          Garantir minha vaga
+          Lista de interesse
         </a>
       </div>
     </nav>
